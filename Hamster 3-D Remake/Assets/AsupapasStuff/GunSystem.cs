@@ -70,7 +70,7 @@ public class GunSystem : MonoBehaviour
             Debug.Log(rayHit.collider.name);
 
             if (rayHit.collider.CompareTag("Enemy"))
-                rayHit.collider.GetComponent<EnemireAI>().TakeDamage(damage);
+                rayHit.collider.GetComponent<EnimireAI>().TakeDamage(damage);
         }
 
         //ShakeCamera
