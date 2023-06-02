@@ -15,9 +15,15 @@ TagManager:
   - WhatIsGround
   - WhatIsPlayer
   - WhatIsEnemy
+<<<<<<< Updated upstream
   - DMG
   - 
   - 
+=======
+  - WhatIsProjectile
+  - whatIsWall
+  - whatIsLedge
+>>>>>>> Stashed changes
   - 
   - 
   - 
