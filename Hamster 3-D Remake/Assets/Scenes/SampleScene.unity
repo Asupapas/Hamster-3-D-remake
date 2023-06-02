@@ -1671,13 +1671,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24e2af00ab89ab342af9e6c141d7a810, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
+  damage: 4
   timeBetweenShooting: 1
-  spread: 0.3
+  spread: 0.4
   range: 20
-  reloadTime: 0
+  reloadTime: 1.2
   timeBetweenShots: 0
-  magazineSize: 60
+  magazineSize: 80
   bulletsPerTap: 10
   allowButtonHold: 0
   fpsCam: {fileID: 1334569537}
@@ -2191,14 +2191,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24e2af00ab89ab342af9e6c141d7a810, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
-  timeBetweenShooting: 0
-  spread: 0
-  range: 60
-  reloadTime: 0
+  damage: 30
+  timeBetweenShooting: 0.7
+  spread: 0.2
+  range: 40
+  reloadTime: 1.5
   timeBetweenShots: 0
-  magazineSize: 100
-  bulletsPerTap: 0
+  magazineSize: 7
+  bulletsPerTap: 1
   allowButtonHold: 0
   fpsCam: {fileID: 1334569537}
   attackPoint: {fileID: 102079915}
@@ -2400,14 +2400,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24e2af00ab89ab342af9e6c141d7a810, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 2
-  timeBetweenShooting: 0.2
-  spread: 0
-  range: 30
-  reloadTime: 0
+  damage: 15
+  timeBetweenShooting: 0.15
+  spread: 0.25
+  range: 60
+  reloadTime: 0.8
   timeBetweenShots: 0
-  magazineSize: 100
-  bulletsPerTap: 0
+  magazineSize: 30
+  bulletsPerTap: 1
   allowButtonHold: 1
   fpsCam: {fileID: 1334569537}
   attackPoint: {fileID: 2047049187}
