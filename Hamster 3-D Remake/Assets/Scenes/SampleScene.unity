@@ -2269,8 +2269,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24e2af00ab89ab342af9e6c141d7a810, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
-  timeBetweenShooting: 0
+  damage: 25
+  timeBetweenShooting: 0.7
   spread: 0
   range: 60
   reloadTime: 0
