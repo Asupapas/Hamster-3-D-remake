@@ -919,6 +919,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7454602066837200739, guid: c61630a453069fc47a06c6b077fffb45,
         type: 3}
+      propertyPath: airMultiplier
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454602066837200739, guid: c61630a453069fc47a06c6b077fffb45,
+        type: 3}
       propertyPath: climbingScript
       value: 
       objectReference: {fileID: 190679840}
