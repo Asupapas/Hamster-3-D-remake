@@ -17,21 +17,23 @@ public class PlayerHP : MonoBehaviour
         healthbar.SetMaxHealth(maxHealth);
     }
 
-
-    // Update is called once per frame
-    void Update()
+    // Check for collision with objects tagged as "DMG"
+    void OnCollisionEnter(Collision collision)
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (collision.gameObject.CompareTag("DMG"))
         {
             TakeDamage(1);
         }
+    }
+    // Update is called once per frame
+    void Update()
+    {
 
-
-        void TakeDamage(int damage)
+    }
+    void TakeDamage(int damage)
         {
             currentHealth -= damage;
 
             healthbar.SetHealth(currentHealth);
         }
-    }
 }
