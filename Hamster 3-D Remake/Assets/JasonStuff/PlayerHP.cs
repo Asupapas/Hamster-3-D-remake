@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHP : MonoBehaviour
 {
@@ -28,7 +29,10 @@ public class PlayerHP : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
     }
     void TakeDamage(int damage)
         {
@@ -36,4 +40,9 @@ public class PlayerHP : MonoBehaviour
 
             healthbar.SetHealth(currentHealth);
         }
+
+    void Die()
+    {
+        SceneManager.LoadScene("LoserFU");
+    }
 }
