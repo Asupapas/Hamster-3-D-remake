@@ -99,7 +99,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 3414631081133007703}
+    m_TransformParent: {fileID: 1786108300403869463}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8f9696fb6017be144a307b6586855ac0,
         type: 3}
@@ -231,11 +231,11 @@ MonoBehaviour:
   magazineSize: 7
   bulletsPerTap: 1
   allowButtonHold: 0
-  fpsCam: {fileID: 7048160405836421382}
+  fpsCam: {fileID: 6231473777916099910}
   attackPoint: {fileID: 556247590640385856}
   whatIsEnemy:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
   muzzleFlash: {fileID: 1743301284569550, guid: ad2ab49d0a2a17148bd51c93d977bdbc,
     type: 3}
   camShakeMagnitude: 0
@@ -253,7 +253,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 3414631081133007703}
+    m_TransformParent: {fileID: 1786108300403869463}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 33269b2b610f4c245a712795c1927939,
         type: 3}
@@ -385,11 +385,11 @@ MonoBehaviour:
   magazineSize: 30
   bulletsPerTap: 1
   allowButtonHold: 1
-  fpsCam: {fileID: 7048160405836421382}
+  fpsCam: {fileID: 6231473777916099910}
   attackPoint: {fileID: 3957906394880512935}
   whatIsEnemy:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
   muzzleFlash: {fileID: 1743301284569550, guid: ad2ab49d0a2a17148bd51c93d977bdbc,
     type: 3}
   camShakeMagnitude: 0
@@ -417,7 +417,7 @@ PrefabInstance:
     - target: {fileID: 3114444129318364486, guid: bdc363bd4f4f50f448303ba39a201aec,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3114444129318364486, guid: bdc363bd4f4f50f448303ba39a201aec,
         type: 3}
@@ -504,19 +504,13 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 7888261889684384267}
   m_SourcePrefab: {fileID: 100100000, guid: bdc363bd4f4f50f448303ba39a201aec, type: 3}
---- !u!4 &3414631081133007703 stripped
+--- !u!4 &1786108300403869463 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6961525395088801231, guid: bdc363bd4f4f50f448303ba39a201aec,
     type: 3}
   m_PrefabInstance: {fileID: 8671054909469358808}
   m_PrefabAsset: {fileID: 0}
---- !u!20 &7048160405836421382 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 3327986526965090206, guid: bdc363bd4f4f50f448303ba39a201aec,
-    type: 3}
-  m_PrefabInstance: {fileID: 8671054909469358808}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8506304277583795519 stripped
+--- !u!1 &4730690857689641343 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4175694726643878823, guid: bdc363bd4f4f50f448303ba39a201aec,
     type: 3}
@@ -528,20 +522,26 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8506304277583795519}
+  m_GameObject: {fileID: 4730690857689641343}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df8b62dab53882c4bbac419f132db282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   selectedWeapon: 0
+--- !u!20 &6231473777916099910 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 3327986526965090206, guid: bdc363bd4f4f50f448303ba39a201aec,
+    type: 3}
+  m_PrefabInstance: {fileID: 8671054909469358808}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9007406506427445841
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 3414631081133007703}
+    m_TransformParent: {fileID: 1786108300403869463}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8b36fb41929fc22429f0083d817b8040,
         type: 3}
@@ -673,7 +673,7 @@ MonoBehaviour:
   magazineSize: 80
   bulletsPerTap: 10
   allowButtonHold: 0
-  fpsCam: {fileID: 7048160405836421382}
+  fpsCam: {fileID: 6231473777916099910}
   attackPoint: {fileID: 5764460836895596184}
   whatIsEnemy:
     serializedVersion: 2
