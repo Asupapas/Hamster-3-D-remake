@@ -2843,7 +2843,7 @@ MonoBehaviour:
   whatIsEnemy:
     serializedVersion: 2
     m_Bits: 256
-  muzzleFlash: {fileID: 6822784245877074904, guid: 43d139f4a91543a48b0ac9f8fe25fa4a,
+  muzzleFlash: {fileID: 1743301284569550, guid: ad2ab49d0a2a17148bd51c93d977bdbc,
     type: 3}
   camShakeMagnitude: 0
   camShakeDuration: 0
