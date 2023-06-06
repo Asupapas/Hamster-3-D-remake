@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< Updated upstream
   tags: []
+=======
+  tags:
+  - DMG
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
@@ -11,12 +16,21 @@ TagManager:
   - 
   - Water
   - UI
+<<<<<<< Updated upstream
   - 
   - 
   - 
   - 
   - 
   - 
+=======
+  - WhatIsGround
+  - WhatIsPlayer
+  - GUN
+  - DMG
+  - 
+  - 
+>>>>>>> Stashed changes
   - 
   - 
   - 
