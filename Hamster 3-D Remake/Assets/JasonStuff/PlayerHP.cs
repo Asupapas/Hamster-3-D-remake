@@ -8,7 +8,7 @@ public class PlayerHP : MonoBehaviour
 
     public int maxHealth = 10;
     public int currentHealth;
-
+    public AudioSource damagesound;
     public Healthbar healthbar;
 
     // Start is called before the first frame update
@@ -24,6 +24,7 @@ public class PlayerHP : MonoBehaviour
         if (collision.gameObject.CompareTag("DMG"))
         {
             TakeDamage(1);
+            damagesound.Play();
         }
     }
     // Update is called once per frame
