@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - DMG
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -12,12 +13,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - WhatIsGround
+  - WhatIsPlayer
+  - GUN
+  - DMG
+  - WhatIsWall
+  - WhatIsLedge
   - 
   - 
   - 
