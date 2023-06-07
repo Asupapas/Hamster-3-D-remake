@@ -26,7 +26,7 @@ public class GunSystem : MonoBehaviour
     //public CameraShake camShake;
     public float camShakeMagnitude, camShakeDuration;
     public TextMeshProUGUI text;
-
+    public AudioSource gunSound;
     private void Awake()
     {
         bulletsLeft = magazineSize;
@@ -55,6 +55,7 @@ public class GunSystem : MonoBehaviour
     }
     private void Shoot()
     {
+        gunSound.Play();
         readyToShoot = false;
 
         //Spread
