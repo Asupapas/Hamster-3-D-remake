@@ -1687,7 +1687,7 @@ MonoBehaviour:
   orientation: {fileID: 1109852779218669033}
   rb: {fileID: 1132265873576986066}
   pm: {fileID: 1864759345546887838}
-  lg: {fileID: 1125064878747017327}
+  lg: {fileID: 0}
   whatIsWall:
     serializedVersion: 2
     m_Bits: 1088

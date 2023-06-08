@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/J testing.unity
+    guid: 89584a5c8e3c3a647958e7e5c7f33142
+  - enabled: 0
+    path: Assets/JasonStuff/Scenes/JASontest.unity
+    guid: a574a05efb88ec946a3d0f822431604b
+  - enabled: 1
+    path: Assets/JasonStuff/Scenes/LoserFU.unity
+    guid: 0bdbcd400f640ef4395711477e5fbe39
+  - enabled: 1
+    path: Assets/JasonStuff/Scenes/TrueLoser.unity
+    guid: e2fc739c767e4294c9cc0fed0e28454a
   m_configObjects: {}

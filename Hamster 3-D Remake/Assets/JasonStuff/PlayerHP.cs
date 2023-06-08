@@ -18,8 +18,8 @@ public class PlayerHP : MonoBehaviour
     [SerializeField] private float hurtTimer = 0.1f;
 
     [Header("Audio Name")]
-    [SerializeField] private AudioClip owAudio = null;
-    private AudioSource healthAudioSource = null;
+    [SerializeField] AudioSource jOw;
+   // private AudioSource healthAudioSource = null;
 
     public Healthbar healthbar;
 
@@ -27,7 +27,7 @@ public class PlayerHP : MonoBehaviour
     {
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
-        healthAudioSource = GetComponent<AudioSource>();
+        //healthAudioSource = GetComponent<AudioSource>();
     }
 
     void UpdateHealth()
@@ -40,7 +40,7 @@ public class PlayerHP : MonoBehaviour
     IEnumerator HurtFlash()
     {
         hurtImage.enabled = true;
-        healthAudioSource.PlayOneShot(owAudio);
+        jOw.Play();
         yield return new WaitForSeconds(hurtTimer);
         hurtImage.enabled = false;
     }
