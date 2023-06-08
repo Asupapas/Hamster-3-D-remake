@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/JasonStuff/Scenes/TrueLoser.unity
     guid: e2fc739c767e4294c9cc0fed0e28454a
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: ed5dda5ef50c607409db5a76115bd990
   m_configObjects: {}
